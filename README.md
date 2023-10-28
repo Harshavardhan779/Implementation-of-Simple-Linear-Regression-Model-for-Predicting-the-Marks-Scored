@@ -17,12 +17,11 @@ To write a program to predict the marks scored by a student using the simple lin
 
 
 ## Program:
-```python
-
+### Developed by: Harsha Vardhan
+### RegisterNumber:  212222240114
 Program to implement the simple linear regression model for predicting the marks scored.
-Developed by: Harsha Vardhan
-RegisterNumber:  212222240114
-```
+
+
 ```python
 import pandas as pd
 import numpy as np
@@ -66,19 +65,24 @@ print("RMSE= ",rmse)
 ```
 
 ## Output:
+### df.head()
 ![2 1](https://github.com/Harshavardhan779/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118707175/186fe800-8bcd-458e-92a3-585f85272a60)
-
+### df.tail()
 ![2 2](https://github.com/Harshavardhan779/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118707175/94161ef2-9a7e-411a-9f2e-e1ede287ade7)
-
+### Array value of x
 ![2 3](https://github.com/Harshavardhan779/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118707175/21625f34-6710-460d-b905-e63e592b8037)
-
+### Array value of y
 ![2 4](https://github.com/Harshavardhan779/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118707175/c8a9b905-3be9-4792-a7cd-4f887c034591)
-
+### values of Y prediction
 ![2 5](https://github.com/Harshavardhan779/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118707175/fc7ee781-5bbe-4f52-aa0f-017361fdda8b)
-
+### Array values of Y Test 
 ![2 6](https://github.com/Harshavardhan779/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118707175/0cdfce32-52b7-49cf-92ba-f9a5eb4a5a0a)
-
-![2 7](https://github.com/Harshavardhan779/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118707175/68bef5c8-8626-4313-8c4e-50a94e3bb686)
+### Training set graph:
+![OUTPUT](/training%20set%20graph.png)
+### Test set graph:
+![OUTPUT](/testing%20set.png)
+### Values of MSE,MAE and RMSE:
+![OUTPUT](/values.png)
 
 ## Result:
 Thus the program to implement the simple linear regression model for predicting the marks scored is written and verified using python programming.
